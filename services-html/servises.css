@@ -1,0 +1,92 @@
+
+
+/*slideshow*/
+.d-block{
+	margin-top: 0;
+	height:65vh;
+	object-fit: cover;
+
+}
+#carouselExampleCaptions{
+	position: relative;
+	z-index: 5;
+	margin-top: 0;
+}
+
+
+/*content*/
+#service-head{
+	font-size: 6.5vw;
+
+}
+
+/*properties*/
+.propertries-card-div{
+	padding-right: 9%;
+	padding-left: 9%;
+	margin-top: 15%;
+	margin-bottom: 10%
+}
+	.propertries-card{
+		border: none;
+		margin-bottom: 100px;
+	}
+		.service-card-img{
+			width: 100%;
+			height: 450px;
+		}
+
+		
+
+
+			.card-body{
+				margin-top: 8%;
+				width: auto;
+				max-width: 800px;
+				font-size: 20px;
+				color: gray;
+
+
+			}
+			 .card-body>h3{
+			 	font-size: 33px;
+			 	color: black;
+
+			 }
+
+.service-vid{
+	width:100%;
+	height:100vh;
+}
+.btn-contact{
+	margin-top: 40px;
+ 	background-color: white;
+ 	border-radius: 25px;
+ 	border:5px solid #d92028;
+ 	width: 200px;
+ 	color: #4e4d55;
+ }
+ 	.btn-contact:hover{
+                  background-color: #d92028;
+                  transform: scale(1.2);
+                  transition: 0.4s;
+                  color: white;
+                  border: none;
+
+      }
+
+
+
+a{
+	text-decoration: none;
+	color: #9ea8ff;
+}
+
+/*footer-responsive*/
+   .footer-4n-res{
+      background: url(../4to/slide-s/2.jpg);
+      padding-top: 50px;
+      padding-left: 7%;
+      padding-bottom: 2%;
+      margin: 0;
+    }
